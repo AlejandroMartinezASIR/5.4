@@ -1,3 +1,4 @@
+name: Publish image to Docker Hub
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
@@ -15,7 +16,7 @@ env:
   REGISTRY: docker.io
   # github.repository as <account>/<repo>
   #IMAGE_NAME: ${{ github.repository }}
-  IMAGE_NAME: 2048
+  IMAGE_NAME: alejandriillo12/2048
   IMAGE_TAG: latest
 
 jobs:
