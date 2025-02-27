@@ -16,7 +16,7 @@ env:
   REGISTRY: docker.io
   # github.repository as <account>/<repo>
   #IMAGE_NAME: ${{ github.repository }}
-  IMAGE_NAME: alejandriillo12/2048
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/2048
   IMAGE_TAG: latest
 
 jobs:
