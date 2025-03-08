@@ -95,3 +95,5 @@ jobs:
 ### Una vez hecho se nos ejecutara un comprobador de que el docker esta todo en orden y al salir todo OK ya lo tendriamos subido a nuestro docker hub.
 
 ![](images/Captura%20de%20pantalla%202025-03-04%20125117.png)
+![](images/5.4.PNG)
+![](images/5.4.2.PNG)
